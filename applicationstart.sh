@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /home/ubuntu
-pm2 -f start hello.py --interpreter python3
+pm2 start "python3 hello.py"
